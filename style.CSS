@@ -1,0 +1,53 @@
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+body {font-family: 'lucida grande', 'Lucida Sans Unicode', Verdana, sans-serif; line-height: 1.6;
+}
+.place { border-color: #ccc #999 #999 #ccc;
+border: 1px solid #ccc;
+margin-bottom: 20px;
+padding: 10px;
+}
+.place h2{ border-bottom: 1px dashed #7e9f19; margin: 0;   
+}
+body{ background: #FFF1D6 url(imagens/fundo-verde.png)
+} 
+.place{ background-color: #fff;
+border: 1px solid #CCC;
+border-color: #CCC #999 #999 #CCC;
+margin-bottom: 20px;
+padding: 10px;}
+.place a { color: #a72c97; 
+font-weight: bold
+}
+h1 {color: #9f1919; text-decoration: none;
+}
+h1:hover {background-color: #36199f;
+color: #ffffff;}
+.place {
+    overflow: hidden; /* Isso faz com que a div envolva corretamente a imagem e o texto */
+}
+
+.place img {
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0; /* Margem direita para separar do texto */
+    padding: 2px;
+    width: 150px; /* Ajuste conforme necessário */
+}
+.place p {
+    margin: 0; /* Para evitar espaçamentos desnecessários */
+}
+.footer {font-size: 12px; 
+text-align: center;}
+.sidenote{background-color: #FFFBe4;
+border: 1px solid #C9BC8F;
+padding: 10px;
+}
+.sidenote h3{ font-size: 14px;
+    margin-top: 0;
+}
+.sidenote ol {
+font-size: 12px;    
+}
